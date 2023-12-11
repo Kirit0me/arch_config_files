@@ -1,0 +1,23 @@
+XF86AudioMute
+	pamixer -t
+XF86AudioRaiseVolume
+	pamixer -i 2
+XF86AudioLowerVolume
+	pamixer -d 2
+XF86AudioPause
+        playerctl play-pause
+XF86AudioPlay
+        playerctl play-pause
+XF86AudioNext
+        playerctl next
+XF86AudioPrev
+        playerctl previous
+XF86MonBrightnessUp
+        brillo -q -A 1
+XF86MonBrightnessDown
+        brillo -q -U 1
+Print
+	flameshot gui
+super + shift +n
+	    feh --bg-fill --recursive --randomize ~/pictures/wallpapers && pywal
+

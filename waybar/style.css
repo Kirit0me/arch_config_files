@@ -1,0 +1,76 @@
+@import url("/home/mugi/.cache/wal/colors-waybar.css");
+
+* {
+	font-size: 28px;
+	font-family: Mononoki Nerd Font;
+}
+
+window#waybar {
+	background: @background;
+	color: @foreground;
+}
+
+#custom-right-arrow-dark,
+#custom-left-arrow-dark {
+	color: @color0;
+}
+#custom-right-arrow-light,
+#custom-left-arrow-light {
+	color: @color8;
+	background: @background;
+}
+
+#workspaces,
+#clock.1,
+#clock.2,
+#clock.3,
+#pulseaudio,
+#memory,
+#cpu,
+#battery,
+#disk,
+#tray {
+	background: @background;
+}
+
+#workspaces button {
+	padding: 0 2px;
+	color: @color6;
+}
+#workspaces button.focused {
+	color: @color5;
+}
+#workspaces button:hover {
+	box-shadow: inherit;
+	text-shadow: inherit;
+}
+#workspaces button:hover {
+	background: @background;
+	border: @background;
+	padding: 0 3px;
+}
+
+#pulseaudio {
+	color: @color11;
+}
+#memory {
+	color: @color6;
+}
+#cpu {
+	color: @color9;
+}
+#battery {
+	color: @color8;
+}
+#disk {
+	color: @color12;
+}
+
+#clock,
+#pulseaudio,
+#memory,
+#cpu,
+#battery,
+#disk {
+	padding: 0 10px;
+}

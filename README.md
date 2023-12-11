@@ -1,2 +1,1 @@
-# arch_config_files
-arch stuff
+# Arch Linux Config
